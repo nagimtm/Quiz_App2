@@ -32,3 +32,11 @@
 .question-card__tag:not(:last-child) {
   margin-right: 10px;
 }
+
+.question-card__answer {
+  opacity: 0;
+}
+
+.question-card__answer.show {
+  opacity: 1;
+}
