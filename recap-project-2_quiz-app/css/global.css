@@ -1,6 +1,7 @@
 :root {
   --accent-color: lightblue;
   --active-color: rgba(0, 155, 255, 1);
+  --selected-color: #c0c0c0;
   --fs-500: 1.1rem;
   --fs-600: 1.5rem;
   --fs-900: 1.75rem;
@@ -49,6 +50,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 1vh;
 }
 
 .footer {
@@ -74,5 +76,6 @@ section {
 }
 
 .footer__link.footer__link--active {
-  background-color: var(--active-color);
+  background-color: var(--selected-color);
+  border-radius: 5%;
 }
